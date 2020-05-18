@@ -1,2 +1,2 @@
-# django-holaMundo
+# Django-holaMundo
 hola mundo en django
