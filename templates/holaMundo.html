@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compactible" content="ie=edge">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'proyectoApp/styles/style.css' %}">
+    <title></title>
+  </head>
+  <body>
+
+    <img src="{% static 'proyectoApp/imagenes/logo.png' %}" width="200">
+
+    <button class="accordion">Nombre</button>
+
+      <div class="panel">
+
+        <p>{{nombre}}</p>
+
+      </div>
+
+
+  </body>
+  <script src="{% static 'proyectoApp/js/myscript.js' %}"></script>
+</html>
