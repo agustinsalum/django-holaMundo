@@ -19,5 +19,6 @@ from proyectoApp.views import holaMundo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    "Inicia la vista automaticamente dejando vacio el primer parametro"
     path('',holaMundo)
 ]
